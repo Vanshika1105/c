@@ -10,7 +10,6 @@ int main() {
     scanf("%lf", &arr[i]);
   }
 
-  // storing the largest number to arr[0]
   for (int i = 1; i < n; ++i) {
     if (arr[0] < arr[i]) {
       arr[0] = arr[i];
@@ -21,3 +20,4 @@ int main() {
 
   return 0;
 }
+
