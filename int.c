@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<math.h>
-/*2. WAP that calculates the Simple Interest and Compound Interest. The Principal, Amount, Rate of Interest and Time are entered through the keyboard.*/
+
 void main() 
 {
 	float p, r, t, a, si, ci;
@@ -18,4 +18,5 @@ void main()
 	ci =  a - p;
 	printf("\nCompound Interest=%f",ci);	
 }
+
 
